@@ -72,7 +72,7 @@
         }
 
         .cards-container {
-            width: 1310px;
+            width: 1330px;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -81,7 +81,7 @@
             padding: 50px;
             margin-bottom: -15px;
             background-color: #f2f2f2;
-            margin-left: 30px;
+            margin-left: 15px;
             border-radius: 20px;
             box-shadow: 0 2px 5px gray;
         }
@@ -111,50 +111,34 @@
         }
 
         .special-offer-img-container {
-            margin: 20px;
+            margin: 25px;
             margin-bottom: 40px;
             cursor: pointer;
             border-radius: 35px;
+            
         }
 
         .special-offer-img {
             width: 1400px;
             height: 330px;
+            border: none;
         }
 
         .special-offer-img-container:hover {
             box-shadow: 0 3px 6px rgb(102, 92, 92);
-            transition: 0.3s;
+          
         }
 
-        .card-text-2 {
-            padding-left: 200px;
+        .cycle-card-container {
             display: flex;
-            margin: 20px;
-        }
-
-        .card-text-2-b {
-            font-size: 50px;
-            padding: 10px;
             margin: 10px;
-
-        }
-
-        .card-text-2 p {
-            width: 500px;
-            padding-left: 20px;
-        }
-
-        .books-card-container {
-            display: flex;
-            margin: 30px;
             padding: 50px;
             border-radius: 25px;
         }
 
-        .books-card {
-            width: 260px;
-            margin: 25px;
+        .cycle-card {
+            width: 300px;
+            margin: 27px;
             padding: 10px;
             background-color: white;
             border-radius: 10px;
@@ -163,32 +147,32 @@
             transition: 0.3s;
         }
 
-        .books-card:hover {
+        .cycle-card:hover {
             transform: scale(1.2);
             z-index: 2;
 
         }
 
-        .books-card-img-div {
+        .cycle-card-img-div {
             text-align: center;
         }
 
-        .books-card-img {
-            width: 250px;
+        .cycle-card-img {
+            width: 260px;
             height: 250px;
 
         }
 
-        .books-card-btn {
+        .cycle-card-btn {
             text-align: center;
 
         }
 
-        .books-card-btn button {
+        .cycle-card-btn button {
             border: none;
             padding: 10px;
             border-radius: 10px;
-            background-color: brown;
+            background-color: rgb(56, 214, 143);
             width: 140px;
             color: white;
             font-weight: 900;
@@ -196,9 +180,24 @@
 
         }
 
-        .books-card-btn button:hover {
+        .cycle-card-btn button:hover {
             background-color: rgb(66, 35, 35);
             color: white;
+        }
+        .deal {
+            background-color: #cc0c39;
+            width: 110px;
+            margin: 10px;
+            padding: 8px;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            border-radius: 5px;
+        }
+        .deal-day {
+            color: #cc0c39;
+            font-weight: bold;
+            margin: 5px;
         }
     </style>
 </head>
@@ -258,57 +257,58 @@
     <div class="special-offer-img-container">
         <img src="./../Images/special-offer1.webp" alt="special-offer" class="special-offer-img">
     </div>
-    <hr>
-    <div class="books-card-container">
+    <hr> 
+    <div class="cycle-card-container">
 
-        <div class="books-card">
+        <div class="cycle-card">
 
             <div class="books-card-img-div">
-                <img src="./../Images/cycle 1.webp" alt="" class="books-card-img">
+                <img src="./../Images/cycle 1.webp" alt="" class="cycle-card-img">
             </div>
-
-            <div class="books-card-btn">
+            <div class="deal">
+                Up To 79% Of
+            </div>
+            <div class="deal-day">
+            Deal of the day
+            </div>
+            <div class="cycle-card-btn">
                 <button>Add to Cart</button>
             </div>
 
         </div>
-        <div class="books-card">
+        <div class="cycle-card">
 
-            <div class="books-card-img-div">
-                <img src="./../Images/cycle 1.webp" alt="" class="books-card-img">
+            <div class="cycle-card-img-div">
+                <img src="./../Images/cycle 1.webp" alt="" class="cycle-card-img">
             </div>
 
-            <div class="books-card-btn">
+            <div class="cycle-card-btn">
                 <button>Add to Cart</button>
             </div>
 
         </div>
-        <div class="books-card">
+        <div class="cycle-card">
 
-            <div class="books-card-img-div">
-                <img src="./../Images/cycle 1.webp" alt="" class="books-card-img">
+            <div class="cycle-card-img-div">
+                <img src="./../Images/cycle 1.webp" alt="" class="cycle-card-img">
             </div>
 
-            <div class="books-card-btn">
+            <div class="cycle-card-btn">
                 <button>Add to Cart</button>
             </div>
 
         </div>
-        <div class="books-card">
+        <div class="cycle-card">
 
-            <div class="books-card-img-div">
-                <img src="./../Images/cycle 1.webp" alt="" class="books-card-img">
+            <div class="cycle-card-img-div">
+                <img src="./../Images/cycle 1.webp" alt="" class="cycle-card-img">
             </div>
 
-            <div class="books-card-btn">
+            <div class="cycle-card-btn">
                 <button>Add to Cart</button>
             </div>
 
         </div>
-
-
-
-
     </div>
 
     </div>
