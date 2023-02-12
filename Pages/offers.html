@@ -70,6 +70,136 @@
             box-shadow: 3px 3px 5px 5px grey;
             margin-top: 48px;
         }
+
+        .cards-container {
+            width: 1310px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 15px;
+            padding: 50px;
+            margin-bottom: -15px;
+            background-color: #f2f2f2;
+            margin-left: 30px;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px gray;
+        }
+
+        .special-offer-img {
+            width: 555px;
+            height: 230px;
+        }
+
+        .cards {
+            display: flex;
+            padding: 15px;
+            padding-left: 100px;
+        }
+
+        .card-text {
+            padding-left: 35px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .card-img {
+            width: 100px;
+            padding-left: 20px;
+            cursor: pointer;
+
+        }
+
+        .special-offer-img-container {
+            margin: 20px;
+            margin-bottom: 40px;
+            cursor: pointer;
+            border-radius: 35px;
+        }
+
+        .special-offer-img {
+            width: 1400px;
+            height: 330px;
+        }
+
+        .special-offer-img-container:hover {
+            box-shadow: 0 3px 6px rgb(102, 92, 92);
+            transition: 0.3s;
+        }
+
+        .card-text-2 {
+            padding-left: 200px;
+            display: flex;
+            margin: 20px;
+        }
+
+        .card-text-2-b {
+            font-size: 50px;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        .card-text-2 p {
+            width: 500px;
+            padding-left: 20px;
+        }
+
+        .books-card-container {
+            display: flex;
+            margin: 30px;
+            padding: 50px;
+            border-radius: 25px;
+        }
+
+        .books-card {
+            width: 260px;
+            margin: 25px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 1px grey;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .books-card:hover {
+            transform: scale(1.2);
+            z-index: 2;
+
+        }
+
+        .books-card-img-div {
+            text-align: center;
+        }
+
+        .books-card-img {
+            width: 250px;
+            height: 250px;
+
+        }
+
+        .books-card-btn {
+            text-align: center;
+
+        }
+
+        .books-card-btn button {
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: brown;
+            width: 140px;
+            color: white;
+            font-weight: 900;
+            cursor: pointer;
+
+        }
+
+        .books-card-btn button:hover {
+            background-color: rgb(66, 35, 35);
+            color: white;
+        }
     </style>
 </head>
 
@@ -95,6 +225,96 @@
         </div>
     </div>
     <hr>
+    <div class="cards-container">
+
+        <div class="cards">
+            <img src="./../Images/shipped-icon.png" alt="" class="card-img">
+            <div class="card-text">
+                <b>Fast Delivery</b>
+                <br>
+                Lorem, ipsum dolor sit amet
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="./../Images/product-return.png" alt="" class="card-img">
+            <div class="card-text">
+                <b>Free Return</b>
+                <br>
+                Lorem, ipsum dolor sit amet
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="./../Images/open-24-hours.png" alt="" class="card-img">
+            <div class="card-text">
+                <b>24/7 Support</b>
+                <br>
+                Lorem, ipsum dolor sit amet
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="special-offer-img-container">
+        <img src="./../Images/special-offer1.webp" alt="special-offer" class="special-offer-img">
+    </div>
+    <hr>
+    <div class="books-card-container">
+
+        <div class="books-card">
+
+            <div class="books-card-img-div">
+                <img src="./../Images/cycle 1.webp" alt="" class="books-card-img">
+            </div>
+
+            <div class="books-card-btn">
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+        <div class="books-card">
+
+            <div class="books-card-img-div">
+                <img src="./../Images/cycle 1.webp" alt="" class="books-card-img">
+            </div>
+
+            <div class="books-card-btn">
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+        <div class="books-card">
+
+            <div class="books-card-img-div">
+                <img src="./../Images/cycle 1.webp" alt="" class="books-card-img">
+            </div>
+
+            <div class="books-card-btn">
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+        <div class="books-card">
+
+            <div class="books-card-img-div">
+                <img src="./../Images/cycle 1.webp" alt="" class="books-card-img">
+            </div>
+
+            <div class="books-card-btn">
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    </div>
+
+
+
 </body>
 
 </html>
