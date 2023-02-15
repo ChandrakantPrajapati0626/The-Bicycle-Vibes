@@ -138,7 +138,7 @@ h2 {
 }
 
 .cycle-card:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 2;
 }
 
@@ -288,4 +288,68 @@ h2 {
 }
 .offer-img {
     width: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    cursor: pointer;
+}
+
+
+
+.margin {
+    margin-left: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.subs {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.social-handles {
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    width: 38px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.designer {
+    text-align: center;
+    font: caption;
+}
+.links-heading {
+    font-size: 26px;
+}
+.subs-button {
+    margin-left: 105px;
+    margin-top: 10px;
+    background-color: #cc0c39;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #f2f2f2;
+    border: none;
+    width: 135px;
+    height: 40px;
+    border-radius: 15px;
+}
+.subs-button:hover {
+    box-shadow: 2px 2px 2px grey;
 }
