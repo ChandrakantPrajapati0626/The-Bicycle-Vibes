@@ -109,6 +109,7 @@ h2 {
     margin-bottom: 40px;
     cursor: pointer;
     border-radius: 35px;
+    box-shadow: 2px 3px 5px 5px #bfbfbf;
 
 }
 
@@ -116,12 +117,6 @@ h2 {
     width: 700px;
     height: 330px;
     border: none;
-}
-
-.special-offer-img-container:hover {
-    box-shadow: 2px 4px 6px rgb(102, 92, 92);
-    transition: 0.5s;
-
 }
 
 .cycle-card-container {
@@ -199,11 +194,13 @@ h2 {
     margin-top: 15px;
     font-size: 18px;
 }
+
 .offer-deal {
     display: flex;
     justify-content: space-around;
     margin-bottom: 5px;
 }
+
 .card-content {
     margin: 5px;
     padding: 2px;
@@ -212,50 +209,83 @@ h2 {
     font-weight: bold;
     font-size: 18px;
 }
+
 .card-content p {
     margin: 2px;
     margin-top: 5px;
-    color: #cc9966;    ;
+    color: #cc9966;
+    ;
     font-weight: bolder;
 }
+
+.btn-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.btn {
+    margin: 20px auto;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    border-radius: 13px;
+    background-color: rgb(56, 214, 143);
+    cursor: pointer;
+    font-weight: 700;
+    width: 140px;
+    color: white;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    box-shadow: 0 2px 5px black;
+    transition: 0.4s;
+}
+
+
 .Special-container {
     display: flex;
     justify-content: space-evenly;
 }
-.btn-container {
-	width: 300px;
-	display: flex;
-	flex-direction: column;
+
+.special-deal-text {
+    font-size: 52px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px black;
+
 }
 
-.btn{
-	margin: 20px auto;
-	border: none;
-	font-size: 20px;
-    padding: 10px;
-	position: relative; 
+.special-deal-content {
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+    margin: 5px;
+    margin-left: 15px;
+    text-align: center;
 }
-	.btn::before{
-		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		content: '';
-		width: 50%;
-		height: 100%;
-		background: black;
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-
-	 .btn-text{
-		color: white;
-		mix-blend-mode: difference;
-	}
-	.btn:hover{
-        background : black;
-        width: 100%;
-    }
-
-    .btn:hover, .btn::before {
-			background-color: black;
-			width: 100%;
-        }
+.special-deal-content b {
+    font-size: 25px;
+    text-align: center;
+}
+.special-content-mrp {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 240px;
+}
+.offer-img-tag {
+    margin: 5px;
+}
+.special-deal-img-content {
+    display: flex;
+    justify-content: space-between;
+}
+.offer-img {
+    width: 100px;
+}
