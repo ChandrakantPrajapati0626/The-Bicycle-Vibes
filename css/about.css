@@ -19,8 +19,9 @@ html {
   width: 300px;
   margin-bottom: 16px;
   border-radius: 15px;
-  box-shadow: 0px 0px 2px 3px black;
+  box-shadow: 0px 0px 1px 2px black;
   margin: 60px;
+  background: linear-gradient(to right,#8e9eab, #eef2f3);
 }
 
 .card {
@@ -81,8 +82,8 @@ html {
   margin-bottom: 15px;
   border-radius: 1;
   border-radius: 10px;
-  box-shadow: 0px 0px 2px 2px black;  
-  background: linear-gradient(to right,#1093ff,#06eeff);
+  box-shadow: 0px 0px 2px 2px black; 
+  background: linear-gradient(to right,#8cb8b4,#07f4d5);   
   
 }
 
@@ -96,7 +97,8 @@ html {
   border-radius: 1;
   border-radius: 10px;
   box-shadow: 0px 0px 2px 2px black;
-  background: linear-gradient(to right,#8cb8b4,#07f4d5); 
+
+  background: linear-gradient(to right,#1093ff,#06eeff);
 }
 
 .profile-img
@@ -111,9 +113,18 @@ html {
 .profile-img:hover
 {
   border-radius: 15px;
-  box-shadow: 0px 0px 3px 3px tomato;
+  box-shadow: 0px 0px 3px 3px #eef2f3;
   margin-top: 15px;
   height: 65%;
   width:50%;
   transition: 1s;
+}
+.img-social
+{
+  height: 25px;
+}
+.img-social:hover
+{
+  height: 30px;
+  transition: 0.6s;
 }
