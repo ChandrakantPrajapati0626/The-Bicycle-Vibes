@@ -1,0 +1,133 @@
+body {
+  background-color: white;
+}
+
+h2 {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 45px;
+}
+
+h3 {
+  color: chartreuse;
+  padding-left: 30px;
+  font-size: 35px;
+  display: flex;
+  align-items: flex-start;
+  margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.cycle-categories-container{
+  
+}
+
+.cycle-categories-card {
+  background-color: white;
+  height: 280px;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  border: solid black 1px;
+  box-shadow: 2px;
+
+}
+
+
+.cycle-categories-img {
+  width: 400px;
+  display: block;
+
+}
+
+.cycle-categories-text {
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 80px;
+  margin-left: 30px;
+
+
+  color: rgb(18, 18, 16);
+}
+
+:hover.cycle-categories-text {
+  color: cadetblue;
+  background-color: blue;
+
+
+}
+
+
+.cycle-categories-text2 {
+  text-align: left;
+  font-size: 20px;
+  display: block;
+  align-items: center;
+  margin-bottom: 70px;
+  height: 160px;
+  width: 360px;
+}
+
+
+.cycle-categories-card-item {
+  display: flex;
+
+}
+
+.cycle-categories-card-item2 {
+  display: flex;
+  margin-top: 195px;
+
+}
+
+.imgtext2 {
+  display: block;
+  margin-left: 75px;
+  margin-top: 85px;
+
+}
+
+.cycle-categories-card-item3 {
+  display: block;
+  margin-left: 21px;
+  margin-top: -9px;
+
+}
+
+.textrating {
+  display: block;
+  margin-top: -35px;
+  margin-left: 5px;
+}
+
+.pricing {
+  display: block;
+  margin-top: 190px;
+  margin-right: 50px;
+  font-size: 40px;
+}
+
+.deltag {
+  font-size: 23px;
+  display: block;
+  margin-top: -75px;
+  margin-right: -190px;
+
+}
+
+.btn {
+  border: solid orange 2px;
+  background-color: crimson;
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+  margin-top: -28px;
+  margin-right: -70px;
+}
