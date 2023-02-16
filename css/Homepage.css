@@ -1,67 +1,67 @@
-/* .content{ 
-    background-color: rgba(0, 0, 0, 0.5) ;
-    
-    background-blend-mode: darken;
-    height: 110vh;
-    
-    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/db403344932167.58227efe7d762.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-     */
-
-
-
 .nav-bar{
 height: 100px;
-width: 100%;
+width: 1500px;
 padding-top: 40px;
 font-size: 20px;
 margin-bottom: 50px;
-background-color:white ;
+background-color:rgb(26, 23, 23) ;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-/* background-color: #FFB800; */
 margin-top: 0px;
-/* background-color: rgba(228, 210, 210, 0.5); */
 box-sizing: border-box;
-margin-left: 0px;
-margin-right: 0px;
-margin: 0px;
 position: relative;
 background-blend-mode: darken;
-/* background-color:white ; */
 
 font-weight: bold;
 }
+
+
 .nav-bar ul{
 list-style: none;
 text-align: center;
 margin: 0;
 padding: 0;
 display: flex;
-padding-left: 100px;
+padding-left: 200px;
+
 }
 
 .nav-bar ul li a{
 text-decoration: none;
-color: crimson;
+color:white;
+
 font-weight: bold;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 padding: 20px;
-
 }
+
+.nav-bar ul :hover{
+    color: crimson;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+
+
+.UnderSpot{
+    height: 150px;
+    width: 1500px;
+    background-color: white;
+    margin-top: 30px;
+}
+
 .tag-line{
-        font-size: 40px;
+        font-size: 30px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color: yellow ;
-        font-weight: bolder;
-        margin-top: 160px;
+        font-weight: 650;
+        margin-top: 90px;
         margin-left: 40px;
     
     }
+
 .card-1{
-     height: 300px;
-     width:400px ;
+     height: 270px;
+     width:370px ;
      margin-left: 77px;
      background-color:white;
     display: inline-block;
@@ -83,8 +83,8 @@ span-1{
     font-size: 20px;
 }
 .card-2{
-    height: 300px;
-    width:400px ;
+    height: 270px;
+    width:370px ;
     margin-left: 77px;
     background-color:white;
    display: inline-block;
@@ -107,8 +107,8 @@ span-2{
     font-size: 20px;
 }
 .card-3{
-    height: 300px;
-    width:400px ;
+    height: 270px;
+    width:370px ;
     margin-left: 77px;
     background-color:white;
    display: inline-block;
@@ -143,26 +143,20 @@ span-3{
 .offers{
 margin-left: 19px;
 }
-/* .get-offer{
-    color: white;
-    height: 170px;
-    width: 200px;
-    margin-top: 30px;
-    margin-left:1000px;
-    box-shadow: 2px 2px 2px 2px;
-    cursor: pointer;
-    text-decoration:dashed;
-    background-color: #fbb72c;
-     border-radius: 10px 10px 10px 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} */
-    
+
+
+
+.CatDiv{
+    height: 900px;
+    width: 1500px;
+    padding: 25px;
+}
 
 
 .TypeDiv{
     display: flex;
     height: 400px;
-    width: 1500px;
+    width: 1480px;
     
     
 }
@@ -175,8 +169,12 @@ margin-left: 19px;
     margin-left: 30px;
 }
 
-.MountainName{
-    
+.Typeimg:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.MountainName{  
     color: white;
     font-size: large;
     font-size: 20px;
@@ -196,10 +194,6 @@ margin-left: 19px;
     cursor: pointer;
 }
 
-
-    
-
-
 .About{
     color: crimson;
     margin-top: 90px;
@@ -209,12 +203,12 @@ margin-left: 19px;
     display: inline-block;
     
 }
-.A{
+.Aboutus{
     justify-items: auto;
     height: 690px;
     width: 730px;
     padding-top: 20px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     padding-right: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     float: right;
@@ -309,22 +303,31 @@ margin-left: 19px;
 
 }
 .cycle-experience{
-margin-top: 50px;
+    margin-top: 50px;
     float: left;
-    margin-left: 25px;
 }
 .upgrad{
-margin-left: 40px;
-    float: right;
+    padding-top: 50px;
     font-size: 19px;
     font-weight: 650;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 100px;
 }
+
+.NeedEx{
+    display: flex;
+    background-color: white;
+    height: 500px;
+    width: 1500px;
+    margin: 50px;
+}
+
 .upgrade-ride{
-    margin-left: 20px;
-    float: right;
-    margin-top: 30px;
+    color: black;
+    margin-top: 50px;
+    padding-top: 50px;
     font-size: 19px;
     font-weight: 650;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -332,8 +335,38 @@ margin-left: 40px;
 
 .footer{
     height: 400px;
-    width: 1460px;
-    background-color:rgb(244, 202, 209);
-    margin-top: 1470px;
-    margin-left: 20px;
+    width: 1500px;
+    display: flex;
+    background-color: black;
+    
 }
+
+.CycStory{
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.Recblogs{
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.RecImages{
+    margin-top: 125px;
+}
+
+.Contactus{
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+
+.Flikerimage{
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+
