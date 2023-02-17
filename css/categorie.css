@@ -1,145 +1,93 @@
-body {
-  background-color: white;
+body
+{
+    background-color: whitesmoke;
+}
+.bike-cards-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.mountain-title
+{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+}
+.main-img-div
+{
+    background-image: url('../Images/andhika-soreng-US06QF_sxu8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 50px;
 }
 
-h2 {
-  /* bike heading*/
-  color: black;
-  background-color: white;
-  text-align: center;
-  font-size: 45px;
+.bike-card
+{
+    position: relative;
+    height: 516px;
+    width: 380px;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0,0.8);
 }
-
-h3 {
-  /* bike name heading*/
-  color:#9ccd62;
-  padding-left: 30px;
-  font-size: 35px;
-  display: flex;
-  align-items: flex-start;
-  margin: 0px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+.info-img
+{
+    height: 18px;
 }
-
-
-
-.cycle-categories-card {
-  /*card*/
-  background-color: white;
-  height: 280px;
-  width: auto;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid black;
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-evenly;
-
-
+.bike-img-div
+{
+    display: flex;
+    justify-content: center;
 }
-
-
-.cycle-categories-img {
-  /*bike img*/
-  width: 400px;
-  display: block;
-
+.price
+{
+    margin: 25px;
+    font-size: 17px;
 }
-
-.cycle-categories-text {
-  /*bike info*/
-  display: block;
-  font-size: 25px;
-  text-align: left;
-  margin-bottom: 80px;
-  margin-left: 30px;
-  width: 425px;
-  color: rgb(18, 18, 16);
+.buy-btn-div
+{
+    display: flex;
+    width: 380px;
+    border-radius: 15px;
 }
-
-
-.cycle-categories-text2 {
-  /*bike info png with point*/
-  text-align: left;
-  font-size: 20px;
-  display: block;
-  align-items: center;
-  margin-bottom: 70px;
-  height: 160px;
-  width: 360px;
-
+.btn-cart
+{
+    height: 60px;
+    width: 190px;
+    border-radius: 0px 0px 0px 15px;
+    background-color: #ffff00;
+    font-size: 25px;
+    cursor: pointer;
 }
-
-
-.cycle-categories-card-item {
-  /* bike png only*/
-  display: flex;
-
+.btn-cart:hover
+{
+    height: 60px;
+    width: 190px;
+    border-radius: 0px 0px 0px 15px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
 }
-
-
-.imgtext2 {
-  /* rating img*/
-  display: block;
-  margin-left: 75px;
-  margin-top: 85px;
+.btn-buy
+{
+    height: 60px;
+    width: 190px;
+    border-radius: 0px 0px 15px 0px;
+    background-color: #63D646;
+    font-size: 25px;
+    cursor: pointer;
 }
-
-
-.textrating {
-  /* reviwe rating text*/
-  display: block;
-  margin-top: -35px;
-  margin-left: 5px;
+.btn-buy:hover
+{
+    height: 60px;
+    width: 190px;
+    border-radius: 0px 0px 15px 0px;
+    background-color:#63D646;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
 }
-
-.pricing {
-  /*price text*/
-  display: block;
-  margin-top: 190px;
-  margin-right: 45px;
-  font-size: 38px;
-  color: #f1d39d;
-}
-:hover.pricing{
-  color:#2ea1da;
-}
-
-.deltag {
-  /* off price*/
-  font-size: 23px;
-  display: block;
-  margin-top: -75px;
-  margin-right: -190px;
-  color: #3c3d42;
-}
-:hover.deltag{
-  color:#9ccd62;
-} 
-.btn {
-  /*btton*/
-  color:black;
-  border: #fcbc48;
-  background-color:#fcbc48;
-  height: 50px;
-  width: 200px;
-  font-size: 20px;
-  border-radius: 5px 5px 5px 5px;
-  display: block;
-  margin-top: -28px;
-  margin-right: -74px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-:hover.btn{
-  color: #fff7ec;
-  background-color: #fcbc08;
-}
-
-
-
-
-
-/*#3c3d42 #9ccd62 #2ea1da #f1d39d*/ 
