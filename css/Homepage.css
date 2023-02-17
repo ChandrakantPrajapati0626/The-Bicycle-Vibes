@@ -136,23 +136,19 @@ span-3{
     margin-top: 20px;
     height: 430px;
     width: 900px;
-    
-    margin-left: 15px;
+    margin-left: 70px;
     background-image: url(https://cdn.bike-room.com/app/uploads/2023/02/P1444294-scaled.jpg);
 }
 
-    
-
-
 .About{
     color: crimson;
-    margin-top: 90px;
+    margin-top: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     font-size: 28px;
     display: inline-block;
-    
 }
+
 .A{
     justify-items: auto;
     height: 690px;
@@ -167,8 +163,8 @@ span-3{
     font-weight: 600;
     margin-right:15px ;
     color:black;
-    
 }
+
 .B{
     height: 600px;
     width: 700px;
