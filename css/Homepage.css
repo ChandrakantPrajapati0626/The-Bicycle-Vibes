@@ -14,6 +14,28 @@ background-blend-mode: darken;
 font-weight: bold;
 }
 
+@media screen and (max-width: 1000px) 
+and (max-width: 100px) {
+    .card-1 {
+        height: 200px;
+        width:100px ;
+        margin-left: 10px;
+        background-color:black;
+       display: inline-block;
+       box-shadow: 3px 3px 3px 3px rgb(218, 13, 13);
+       justify-content: space-around;
+
+
+    }
+}
+
+
+
+
+
+
+
+
 
 .nav-bar ul{
 list-style: none;
