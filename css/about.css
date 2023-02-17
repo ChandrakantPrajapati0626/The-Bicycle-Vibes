@@ -29,12 +29,12 @@ body{
   .container
   {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .container2
   {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 50px;
   }
   .container3
@@ -56,13 +56,21 @@ body{
 }
   
   .card {
-    width: 285px;
-    height: 400px;
+    width: 320px;
+    height: 415px;
     border-radius: 15px;
-    box-shadow: 0px 0px 1px 2px black;
     background: linear-gradient(to right, #8e9eab, #eef2f3);
     text-align: center;
     padding: 5px;
+<<<<<<< HEAD
+    border: none;
+    cursor: pointer;
+  }
+  .card:hover {
+    box-shadow: 2px 3px 7px black;
+    transition: 2s;
+
+=======
     cursor: pointer;
     transition: 0.3s;
     box-shadow: 0px 0px 8px rgb(0, 0, 0,0.8);
@@ -71,23 +79,22 @@ body{
   .card:hover{
     transform: scale(1.1);
     z-index: 1;
+>>>>>>> 46dc23e29ba18bd9c836b182d3447ab0fc86c913
   }
 
   .profile-img {
     border-radius: 15px;
     box-shadow: 0px 0px 3px 2px black;
     margin-top: 15px;
-    height: 40%;
-    width: 55%;
+    height: 45%;
+    width: 60%;
+    border-radius: 15px;
 
   }
 
   .profile-img:hover {
-    border-radius: 15px;
     box-shadow: 0px 0px 3px 3px #eef2f3;
     margin-top: 15px;
-    height: 42%;
-    width: 57%;
     transition: 1s;
   }
 
