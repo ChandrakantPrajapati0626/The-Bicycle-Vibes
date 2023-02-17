@@ -1,0 +1,119 @@
+.aboutus-cointainer {
+    text-align: center;
+    background-color: #FEF7FF;
+    color: rgb(147, 41, 41);
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 3px black;
+  }
+  .about-head
+  {
+    font-size: 36px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+.about-paragraph{
+  padding-bottom: 15px;
+  color: black;
+  font-size: large;
+  padding-left: 7px;  
+  padding-right: 7px;
+}
+
+  .container
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container2
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .container3
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .our-team {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+    /* background: -webkit-linear-gradient(#F1C9EC, #AB84CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+     font-size: 40px;
+
+}
+  
+  .card {
+    width: 285px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px 2px black;
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    text-align: center;
+    padding: 5px;
+  }
+
+  .profile-img {
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 2px black;
+    margin-top: 15px;
+    height: 40%;
+    width: 55%;
+
+  }
+
+  .profile-img:hover {
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 3px #eef2f3;
+    margin-top: 15px;
+    height: 42%;
+    width: 57%;
+    transition: 1s;
+  }
+
+  .img-social {
+    height: 25px;
+  }
+
+  .img-social:hover {
+    height: 30px;
+    transition: 0.6s;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px black;
+    background: linear-gradient(to right, #8cb8b4, #07f4d5);
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+
+  .contact:hover {
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px black;
+    background: linear-gradient(to right, #1093ff, #06eeff);
+  }
+.title
+{
+  font-size: 17px;
+  color: grey;
+  
+}
