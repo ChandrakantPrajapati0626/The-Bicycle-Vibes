@@ -36,7 +36,7 @@ h2 {
 }
 
 .header-btn button {
-    background-color: rgb(56, 214, 143);
+    background: linear-gradient(to right,#1093ff,#06eeff);
     border: none;
     width: 140px;
     border-radius: 14px;
@@ -160,7 +160,7 @@ h2 {
 .cycle-card-btn button {
     border: none;
     border-radius: 5px;
-    background-color: rgb(56, 214, 143);
+    background: linear-gradient(to right,#1093ff,#06eeff);
     width: 95%;
     color: white;
     font-weight: 900;
@@ -233,7 +233,7 @@ h2 {
     padding: 10px;
     position: relative;
     border-radius: 13px;
-    background-color: rgb(56, 214, 143);
+    background: linear-gradient(to right,#1093ff,#06eeff);
     cursor: pointer;
     font-weight: 700;
     width: 140px;
