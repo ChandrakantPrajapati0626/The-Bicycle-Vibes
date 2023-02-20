@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href=".">
+    <title>Login page in HTML</title>
+    <link rel="stylesheet" href="./../css/log.css">
 </head>
 <body>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eligendi dicta, necessitatibus itaque aut magni impedit exercitationem harum ipsum fuga totam placeat quae a tempora porro debitis adipisci libero vel?
+    <h1>Welcome</h1>
+    <form action="">
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h3>Sign in</h3>
+            <p>Sign in with your username and password</p>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username" class="">Your username</label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="pswrd">Your password</label>
+            <input type="password" placeholder="Enter Password" name="pswrd" required>
+
+            <!-- sub container for the checkbox and forgot password link -->
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <p class="forgotpsd"> <a href="#">Forgot Password?</a></p>
+            </div>
+
+
+            <!-- Submit button -->
+            <button type="submit">Login</button>
+
+            <!-- Sign up link -->
+            <p class="register">Not a member?  <a href="signup.html">Register here!</a></p>
+
+        </div>
+
+    </form>
 </body>
 </html>
