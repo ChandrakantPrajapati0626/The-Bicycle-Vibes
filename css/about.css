@@ -4,7 +4,7 @@ body {
 
 .aboutus-cointainer {
   text-align: center;
-  background-color: white;
+  background-color: #e6e6e6;
   border-radius: 15px;
   box-shadow: 0px 2px 2px 3px grey;
   height: 27rem;
@@ -67,6 +67,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
   font-size: 40px;
+  font-weight: 900;
 
 }
 
@@ -74,16 +75,17 @@ body {
   width: 320px;
   height: 415px;
   border-radius: 15px;
-  background: linear-gradient(to right, #8e9eab, #eef2f3);
   text-align: center;
   padding: 5px;
   border: none;
   cursor: pointer;
+  background-color: #e6e6e6;
+  box-shadow: 2px 4px 7px rgb(32, 32, 32);
+
 }
 
 .card:hover {
   box-shadow: 2px 3px 7px black;
-  transition: 2s;
 
 }
 
@@ -91,16 +93,17 @@ body {
   width: 320px;
   height: 445px;
   border-radius: 15px;
-  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  background-color: #e6e6e6;
   text-align: center;
   padding: 5px;
   border: none;
   cursor: pointer;
+  box-shadow: 2px 4px 7px rgb(32, 32, 32);
+
 }
 
 .card-container-1:hover {
   box-shadow: 2px 3px 7px black;
-  transition: 2s;
 
 }
 
@@ -133,25 +136,18 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: antiquewhite;
+  background: linear-gradient(to right, #1093ff, #06eeff);
   padding: 5px;
-  border-radius: 1;
   border-radius: 10px;
-  box-shadow: 0px 0px 2px 2px black;
-  background: linear-gradient(to right, #8cb8b4, #07f4d5);
   margin-bottom: 5px;
   margin-top: 15px;
 }
 
 .contact:hover {
-  display: flex;
-  justify-content: space-around;
-  background-color: antiquewhite;
+  box-shadow: 0 2px 2px 4px gainsboro;
   padding: 5px;
   margin-bottom: 5px;
-  border-radius: 1;
   border-radius: 10px;
-  box-shadow: 0px 0px 2px 2px black;
-  background: linear-gradient(to right, #1093ff, #06eeff);
 }
 
 .title {
@@ -160,49 +156,6 @@ body {
 
 }
 
-
-
-/* nav bar CSS */
-.nav-bar {
-  height: 100px;
-  width: auto;
-  padding-top: 40px;
-  font-size: 20px;
-  margin-bottom: 50px;
-  background-color: rgb(26, 23, 23);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-top: 0px;
-  box-sizing: border-box;
-  position: relative;
-  background-blend-mode: darken;
-  font-weight: bold;
-}
-
-
-.nav-bar ul {
-  list-style: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  padding-left: 200px;
-
-}
-
-.nav-bar ul li a {
-  text-decoration: none;
-  color: white;
-
-  font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding: 20px;
-}
-
-.nav-bar ul :hover {
-  color: crimson;
-  transform: scale(1.1);
-  z-index: 2;
-}
 
 /* Footer */
 
@@ -241,4 +194,63 @@ body {
   margin-top: 50px;
   padding-top: 20px;
   margin-left: 50px;
+}
+
+/* nav bar CSS */
+
+.nav-bar {
+  width: auto;
+  padding-top: 20px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  background-color: rgb(32, 31, 31);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 0px;
+  box-sizing: border-box;
+  background-blend-mode: darken;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+
+.nav-bar ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 30px;
+
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar ul :hover {
+  color: crimson;
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.nav-logo-img {
+  width: 120px;
+}
+
+.nav-logo {
+  margin-left: 10px;
+}
+
+.icon {
+  width: 38px;
+}
+
+.icon-container {
+  margin-top: 28px;
 }
