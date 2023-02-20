@@ -18,6 +18,10 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.btn-about {
+  display: flex;
+  flex-direction: column;
+}
 
 
 .about-paragraph {
@@ -57,6 +61,12 @@ body {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+ 
+.vibes-head {
+  font-size: 65px;
+  color: black;
+  margin-left: 130px;
 }
 
 .our-team {
