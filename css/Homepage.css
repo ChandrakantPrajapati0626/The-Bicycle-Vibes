@@ -181,11 +181,12 @@
     }
     
     .MountainName{  
+        display: block;
         color: white;
         font-size: large;
         font-size: 20px;
-        height: 60px;
-        width: 120px;
+        height: 30px;
+        width: 163px;
         padding-left: 20px;
         padding: 13px;
         box-shadow: 2px 2px 2px 2px rgb(212, 38, 96);
@@ -346,7 +347,7 @@
     
     .footer{
         height: 400px;
-        width: 1400px;
+        width: 1500px;
         display: flex;
         background-color: black;
         margin-left: auto;
