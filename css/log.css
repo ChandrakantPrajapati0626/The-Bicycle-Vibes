@@ -16,37 +16,49 @@ h1{
 h3{
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding-top: 17px;
+
 }
 
-form{
-    width:30rem;
-    height: 32rem;
-    margin: auto;
-    color:whitesmoke;
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(11, 15, 13, 0.582);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    padding: 20px 25px;
+.main-container {
+  background-color: #f6f6f6;
+  width: 550px;
+  height: 550px;
+  margin-left: 500px;
+  box-shadow:  2px 3px 7px rgb(48, 47, 47);
+}
+
+.label {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 16px;
+
 }
 
 input[type=text], input[type=password]{
-    width: 100%;
+    width: 90%;
     margin: 10px 0;
+    margin-left: 20px;
     border-radius: 5px;
     padding: 15px 18px;
     box-sizing: border-box;
   }
   
 button {
-    background-color: #030804;
-    color: white;
-    padding: 14px 20px;
-    border-radius: 5px;
-    margin: 7px 0;
-    width: 100%;
-    font-size: 18px;
+  background: linear-gradient(to right,#1093ff,#06eeff);
+  color: white;
+  padding: 14px 20px;
+  border-radius: 5px;
+  margin: 7px 0;
+  width: 90%;
+  font-size: 18px;
+  border: none;
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+
   }
 
 button:hover {
@@ -93,7 +105,7 @@ span.forgotpsd a {
   }
 
   .register{
-    color: white;
+    color: black;
     text-align: center;
   }
   

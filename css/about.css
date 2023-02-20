@@ -4,7 +4,7 @@ body {
 
 .aboutus-cointainer {
   text-align: center;
-  background-color: #e6e6e6;
+  background-color: white;
   border-radius: 15px;
   box-shadow: 0px 2px 2px 3px grey;
   height: 27rem;
@@ -17,6 +17,10 @@ body {
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.btn-about {
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -57,6 +61,12 @@ body {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+ 
+.vibes-head {
+  font-size: 65px;
+  color: black;
+  margin-left: 130px;
 }
 
 .our-team {
@@ -198,59 +208,42 @@ body {
 
 /* nav bar CSS */
 
-.nav-bar {
-  width: auto;
-  padding-top: 20px;
+.nav-bar{
+  height: 100px;
+  width: 1500px;
+  padding-top: 40px;
   font-size: 20px;
   margin-bottom: 50px;
-  background-color: rgb(32, 31, 31);
+  background-color:rgb(26, 23, 23) ;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-top: 0px;
   box-sizing: border-box;
+  position: relative;
   background-blend-mode: darken;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: bold;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 10px;
-}
+  }
 
-
-.nav-bar ul {
+  .nav-bar ul{
   list-style: none;
   text-align: center;
   margin: 0;
   padding: 0;
   display: flex;
-  margin-top: 30px;
-
-}
-
-.nav-bar ul li a {
+  padding-left: 200px;
+  }
+  
+  .nav-bar ul li a{
   text-decoration: none;
-  margin: 20px;
-  color: white;
+  color:white;
   font-weight: bold;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.nav-bar ul :hover {
-  color: crimson;
-  transform: scale(1.1);
-  z-index: 2;
-}
-
-.nav-logo-img {
-  width: 120px;
-}
-
-.nav-logo {
-  margin-left: 10px;
-}
-
-.icon {
-  width: 38px;
-}
-
-.icon-container {
-  margin-top: 28px;
-}
+  padding: 20px;
+  }
+  
+  .nav-bar ul :hover{
+      color: crimson;
+      transform: scale(1.1);
+      z-index: 2;
+  }
