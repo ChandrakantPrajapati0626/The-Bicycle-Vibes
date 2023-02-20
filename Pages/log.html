@@ -7,6 +7,7 @@
 <body>
     <h1>Welcome</h1>
     <form action="">
+        <div class="main-container">
         <!-- Headings for the form -->
         <div class="headingsContainer">
             <h3>Sign in</h3>
@@ -16,18 +17,18 @@
         <!-- Main container for all inputs -->
         <div class="mainContainer">
             <!-- Username -->
-            <label for="username" class="">Your username</label>
+            <label for="username" class="label">Your username</label>
             <input type="text" placeholder="Enter Username" name="username" required>
 
             <br><br>
 
             <!-- Password -->
-            <label for="pswrd">Your password</label>
+            <label for="pswrd" class="label">Your password</label>
             <input type="password" placeholder="Enter Password" name="pswrd" required>
 
             <!-- sub container for the checkbox and forgot password link -->
             <div class="subcontainer">
-                <label>
+                <label class="label">
                   <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
                 <p class="forgotpsd"> <a href="#">Forgot Password?</a></p>
@@ -35,12 +36,13 @@
 
 
             <!-- Submit button -->
-            <button type="submit">Login</button>
+            <button type="submit" >Log In</button>
 
             <!-- Sign up link -->
             <p class="register">Not a member?  <a href="signup.html">Register here!</a></p>
 
         </div>
+    </div>
 
     </form>
 </body>
