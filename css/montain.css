@@ -61,9 +61,7 @@ body {
     height: 60px;
     width: 190px;
     border-radius: 0px 0px 0px 15px;
-
-    background-color:#fbb72c ;
-    ;
+    background: linear-gradient(to right, #1093ff, #06eeff);
     font-size: 25px;
     cursor: pointer;
 }
@@ -74,15 +72,16 @@ body {
     border-radius: 0px 0px 0px 15px;
     font-size: 25px;
     cursor: pointer;
-    color: black;
-    background-color:#ffff00;
+    color: whitesmoke;
+    background-color: #63D646;
+
 }
 
 .btn-buy {
     height: 60px;
     width: 190px;
     border-radius: 0px 0px 15px 0px;
-    background: linear-gradient(to right, #1093ff, #06eeff);
+    background-color: tomato;
     font-size: 25px;
     cursor: pointer;
 }
@@ -91,10 +90,10 @@ body {
     height: 60px;
     width: 190px;
     border-radius: 0px 0px 15px 0px;
-    background-color: #63D646;
+    background-color: #ffff00;
     font-size: 25px;
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 /* nav bar CSS */
