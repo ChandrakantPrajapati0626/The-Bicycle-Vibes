@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Bicycle Vibes</title>
+    <title>Login page in HTML</title>
+    <link rel="stylesheet" href="./../css/sign.css">
 </head>
 <body>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eligendi dicta, necessitatibus itaque aut magni impedit exercitationem harum ipsum fuga totam placeat quae a tempora porro debitis adipisci libero vel?
+    <h1>Welcome</h1>
+    <form action="">
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h3>Sign Up</h3>
+            <p>Sign Up with your username and password</p>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Your Name:</label>
+            <input type="text" placeholder="Enter Email" name="username" required>
+
+            <br><br>
+
+            <label for="username">Your Email:</label>
+            <input type="text" placeholder="Enter Email" name="username" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="pswrd">Create password:</label>
+            <input type="password" placeholder="Create Strong Password" name="pswrd" required>
+
+            <br><br>
+
+            <label for="pswrd">Create password:</label>
+            <input type="password" placeholder="Create Strong Password" name="pswrd" required>
+
+            <!-- sub container for the checkbox and forgot password link -->
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember" > Remember me
+                </label>
+            </div>
+
+
+            <!-- Submit button -->
+            <button type="submit" class="submit">Sign Up</button>
+            <p class="register">Welcome You....</p>
+
+        </div>
+
+    </form>
 </body>
 </html>
