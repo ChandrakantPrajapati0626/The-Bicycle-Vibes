@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Payment</title>
+    <style>
+        body {
+            background-color: rgb(212, 225, 240);
+        }
+
+        header {
+            width: 100%;
+            min-height: 730px;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: aliceblue;
+            max-width: 1100px;
+            margin-top: -10px;
+            min-height: 536px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            font-size: 24px;
+            box-shadow: 2px 5px 5px #a1b3ea;
+            border-radius: 10px;
+            box-sizing: border-box;
+            padding: 0px;
+        }
+
+        .left {
+            flex-basis: 50%;
+            position: relative;
+            left: 25px;
+        }
+
+        .right {
+            flex-basis: 50%;
+            margin-left: 0px;
+        }
+
+        h3 {
+            color: rgb(98, 98, 189);
+        }
+
+        .formleft {
+            padding: 0px;
+            line-height: 38px;
+            margin: 0px;
+            width: 100%;
+        }
+
+        .formright {
+            position: relative;
+            padding: 40px;
+            line-height: 38px;
+            margin-top: 0px;
+            margin-left: -30px;
+            bottom: -2px;
+            width: 100%;
+        }
+
+        form input[type="text"] {
+            padding: 8px;
+            width: 85%;
+            outline: none;
+            margin-top: 10px;
+        }
+
+        .zip {
+            padding: 4px;
+            margin-top: 10px;
+            display: flex;
+        }
+
+        .state {
+            font-size: 27px;
+        }
+
+        .select {
+            width: 145px;
+            padding: 4px;
+        }
+
+        .zipcode {
+            padding: 4px;
+            margin-left: 5px;
+            width: 42%;
+        }
+
+        .visaimg {
+            width: 50px;
+            position: relative;
+            top: -28px;
+        }
+
+        .cardimg {
+            position: relative;
+            width: 70px;
+            top: -24px;
+        }
+
+        .visacardimg {
+            width: 60px;
+            position: relative;
+            top: -27px;
+        }
+
+        .mastercard {
+            position: relative;
+            width: 68px;
+            top: -9px;
+        }
+
+        .span1 {
+            position: relative;
+            top: -30px;
+        }
+
+        .expyear {
+            margin-left: 5px;
+            padding: 4px;
+        }
+
+        .monthoption {
+            padding: 4px;
+        }
+
+        .zipcvv {
+            width: 62%;
+            padding: 4px;
+        }
+
+        .submit {
+            border: none;
+            border-radius: 5px;
+            background: linear-gradient(to right, #1093ff, #06eeff);
+            width: 50%;
+            color: white;
+            font-weight: 900;
+            cursor: pointer;
+            margin-bottom: 5px;
+            font-size: 15px;
+            height: 35px;
+        }
+
+        .submit:hover {
+            box-shadow: 2px 5px 5px #a1b3ea;
+            transition: 3s;
+
+        }
+
+        .pay-button {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+            margin-top: 50px;
+            margin-right: 100px;
+
+        }
+
+        .submit :hover {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <h3>Billing Adress</h3>
+                <form class="formleft">
+                    Full Name: <br>
+                    <input type="text" placeholder="Enter Your Full Name"> <br>
+                    Email: <br>
+                    <input type="text" placeholder="Enter Your Email"> <br>
+                    Adress: <br>
+                    <input type="text" placeholder="Enter Your Adress"> <br>
+                    City: <br>
+                    <input type="text" placeholder="Enter Your City Name"> <br>
+
+                    <div class="zip">
+                        <label class="state"> State:
+                            <select class="select">
+                                <option value="">Choose Your State</option>
+                                <option>Maharastra</option>
+                                <option>Gujrat</option>
+                                <option>Tamilnadu</option>
+                                <option>Telangana</option>
+                                <option>Uttar Pradesh</option>
+                            </select>
+                        </label> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <label>
+                            Zip Code:
+                            <input type="Number" placeholder="Enter Zip Code" class="zipcode">
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <h3>Payment</h3>
+                <form class="formright">
+                    Accepted Card: <br>
+                    
+                    <img src="paypal.jpeg" alt="" class="cardimg">
+                    <img src="visa2.webp" alt="" class="visacardimg">
+                    <img src="paypal.jpeg" alt="" class="cardimg">
+                    <img src="master cards.jpeg" alt="" class="mastercard">
+                    
+                    
+                    <br>
+                    <span class="span1">
+                        Card Number: <br>
+                        <input type="text" placeholder="Enter Your Card Number" class="cardplaceholder"> <br>
+                        Full Name:
+                        <input type="text" placeholder="Enter Your Full Name" class="cardplaceholder"> <br>
+                        <div class="zip">
+                            <label>Exp Month:
+                                <select class="monthoption">
+                                    <option value="">Choose Your Month</option>
+                                    <option>January</option>
+                                    <option>February</option>
+                                    <option>March</option>
+                                    <option>April</option>
+                                    <option>May</option>
+                                    <option>June</option>
+                                    <option>July</option>
+                                    <option>August</option>
+                                    <option>September</option>
+                                    <option>October</option>
+                                    <option>November</option>
+                                    <option>December</option>
+                                </select>
+                            </label>
+                            <label>Exp Year:
+                                <select class="expyear">
+                                    <option>Choose Year</option>
+                                    <option>2022</option>
+                                    <option>2023</option>
+                                    <option>2024</option>
+                                    <option>2025</option>
+                                    <option>2026</option>
+                                    <option>2028</option>
+                                    <option>2029</option>
+                                    <option>2030</option>
+                                    <option>2031</option>
+                                </select>
+                            </label>
+                            <label>
+                                CVV: &nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="Number" placeholder="Enter CVV" class="zipcvv">
+                            </label> <br>
+                    </span>
+            </div>
+            </form>
+            <div class="pay-button">
+                <button class="submit">Proceed to pay</button>
+            </div>
+
+
+        </div>
+        </div>
+    </header>
+</body>
+
+</html>
