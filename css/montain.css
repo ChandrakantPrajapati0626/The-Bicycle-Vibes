@@ -90,7 +90,7 @@ body {
     height: 60px;
     width: 190px;
     border-radius: 0px 0px 15px 0px;
-    background-color: #ffff00;
+    background-color: rgb(220, 179, 179);
     font-size: 25px;
     cursor: pointer;
     color: black;
