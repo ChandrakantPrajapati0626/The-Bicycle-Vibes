@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(212, 225, 240);
+}
+
+header {
+    width: 100%;
+    min-height: 730px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: aliceblue;
+    max-width: 1100px;
+    margin-top: -10px;
+    min-height: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 24px;
+    box-shadow: 2px 5px 5px #a1b3ea;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.left {
+    flex-basis: 50%;
+    position: relative;
+    left: 25px;
+}
+
+.right {
+    flex-basis: 50%;
+    margin-left: 0px;
+}
+
+h3 {
+    color: rgb(98, 98, 189);
+}
+
+.formleft {
+    padding: 0px;
+    line-height: 38px;
+    margin: 0px;
+    width: 100%;
+}
+
+.formright {
+    position: relative;
+    padding: 40px;
+    line-height: 38px;
+    margin-top: 0px;
+    margin-left: -30px;
+    bottom: -2px;
+    width: 100%;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    width: 85%;
+    outline: none;
+    margin-top: 10px;
+}
+
+.zip {
+    padding: 4px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.state {
+    font-size: 27px;
+}
+
+.select {
+    width: 145px;
+    padding: 4px;
+}
+
+.zipcode {
+    padding: 4px;
+    margin-left: 5px;
+    width: 42%;
+}
+
+
+.cardimg {
+    position: relative;
+    width: 70px;
+    top: -24px;
+    padding: 6px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+.span1 {
+    position: relative;
+    top: -30px;
+}
+
+.expyear {
+    margin-left: 5px;
+    padding: 4px;
+}
+
+.monthoption {
+    padding: 4px;
+}
+
+.zipcvv {
+    width: 62%;
+    padding: 4px;
+}
+
+.submit {
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #1093ff, #06eeff);
+    width: 50%;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-size: 15px;
+    height: 35px;
+}
+
+.submit:hover {
+    box-shadow: 2px 5px 5px #a1b3ea;
+    transition: 3s;
+
+}
+
+.pay-button {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 50px;
+    margin-right: 100px;
+
+}
+
+.submit :hover {
+    width: 50%;
+}
