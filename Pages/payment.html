@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Payment</title>
+    <link rel="stylesheet" href="./../css/payment.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <h3>Billing Adress</h3>
+                <form class="formleft">
+                    Full Name: <br>
+                    <input type="text" placeholder="Enter Your Full Name"> <br>
+                    Email: <br>
+                    <input type="text" placeholder="Enter Your Email"> <br>
+                    Adress: <br>
+                    <input type="text" placeholder="Enter Your Adress"> <br>
+                    City: <br>
+                    <input type="text" placeholder="Enter Your City Name"> <br>
+
+                    <div class="zip">
+                        <label class="state"> State:
+                            <select class="select">
+                                <option value="">Choose Your State</option>
+                                <option>Maharastra</option>
+                                <option>Gujrat</option>
+                                <option>Tamilnadu</option>
+                                <option>Telangana</option>
+                                <option>Uttar Pradesh</option>
+                            </select>
+                        </label> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <label>
+                            Zip Code:
+                            <input type="Number" placeholder="Enter Zip Code" class="zipcode">
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <h3>Payment</h3>
+                <form class="formright">
+                    Accepted Card: <br>
+                    
+                    <img src="./../Images/visa.png" alt="" class="cardimg">
+                    <img src="./../Images/paypal.png" alt="" class="cardimg">
+                    
+                    
+                    <br>
+                    <span class="span1">
+                        Card Number: <br>
+                        <input type="text" placeholder="Enter Your Card Number" class="cardplaceholder"> <br>
+                        Full Name:
+                        <input type="text" placeholder="Enter Your Full Name" class="cardplaceholder"> <br>
+                        <div class="zip">
+                            <label>Exp Month:
+                                <select class="monthoption">
+                                    <option value="">Choose Your Month</option>
+                                    <option>January</option>
+                                    <option>February</option>
+                                    <option>March</option>
+                                    <option>April</option>
+                                    <option>May</option>
+                                    <option>June</option>
+                                    <option>July</option>
+                                    <option>August</option>
+                                    <option>September</option>
+                                    <option>October</option>
+                                    <option>November</option>
+                                    <option>December</option>
+                                </select>
+                            </label>
+                            <label>Exp Year:
+                                <select class="expyear">
+                                    <option>Choose Year</option>
+                                    <option>2022</option>
+                                    <option>2023</option>
+                                    <option>2024</option>
+                                    <option>2025</option>
+                                    <option>2026</option>
+                                    <option>2028</option>
+                                    <option>2029</option>
+                                    <option>2030</option>
+                                    <option>2031</option>
+                                </select>
+                            </label>
+                            <label>
+                                CVV: &nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="Number" placeholder="Enter CVV" class="zipcvv">
+                            </label> <br>
+                    </span>
+            </div>
+            </form>
+            <div class="pay-button">
+                <button class="submit">Proceed to pay</button>
+            </div>
+
+
+        </div>
+        </div>
+    </header>
+</body>
+
+</html>
