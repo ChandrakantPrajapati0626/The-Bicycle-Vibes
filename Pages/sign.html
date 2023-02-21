@@ -9,7 +9,9 @@
 </head>
 <body>
     <h1>Welcome</h1>
+    
     <form action="">
+        <div class="main-container">
         <!-- Headings for the form -->
         <div class="headingsContainer">
             <h3>Sign Up</h3>
@@ -19,38 +21,39 @@
         <!-- Main container for all inputs -->
         <div class="mainContainer">
             <!-- Username -->
-            <label for="username">Your Name:</label>
+            <label for="username" class="label">Enter your name:</label>
             <input type="text" placeholder="Enter Email" name="username" required>
 
             <br><br>
 
-            <label for="username">Your Email:</label>
+            <label for="username" class="label">Enter your email:</label>
             <input type="text" placeholder="Enter Email" name="username" required>
 
             <br><br>
 
             <!-- Password -->
-            <label for="pswrd">Create password:</label>
+            <label for="pswrd" class="label">Create password:</label>
             <input type="password" placeholder="Create Strong Password" name="pswrd" required>
 
             <br><br>
 
-            <label for="pswrd">Create password:</label>
+            <label for="pswrd" class="label">Confirm password:</label>
             <input type="password" placeholder="Create Strong Password" name="pswrd" required>
 
             <!-- sub container for the checkbox and forgot password link -->
             <div class="subcontainer">
-                <label>
+                <label class="label">
                   <input type="checkbox" checked="checked" name="remember" > Remember me
                 </label>
             </div>
 
 
             <!-- Submit button -->
-            <button type="submit" class="submit">Sign Up</button>
+            <button type="submit" class="submit">Register</button>
             <p class="register">Welcome You....</p>
 
         </div>
+    </div>
 
     </form>
 </body>
