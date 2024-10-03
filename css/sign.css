@@ -26,6 +26,7 @@ h3{
   height: 720px;
   margin-left: 500px;
   box-shadow:  2px 3px 7px rgb(48, 47, 47);
+  border-radius: 20px;
 }
 
 .label {
